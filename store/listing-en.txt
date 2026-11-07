@@ -1,0 +1,36 @@
+NAME
+Spotify-Podcast-Extractor
+
+SHORT DESCRIPTION
+Save available Spotify podcast transcripts as Markdown, TXT, HTML, JSON or CSV, with speaker labels. Processed locally.
+
+FULL DESCRIPTION
+Bring a podcast conversation into your notes.
+
+Spotify-Podcast-Extractor exports the transcript already available on a Spotify episode page. Review the original wording, check the first and last lines, and save a file through your browser.
+
+• Five formats: Markdown, plain text, an offline HTML reading page, JSON and CSV.
+• Obsidian-ready Markdown: each speaker turn has its own labeled callout. Speaker 1 is blue; Speaker 2 is green. Unlabeled passages are marked without guessing identities.
+• Transcript checks: sentence count, character count, first and last lines, and a full preview before downloading.
+• Reads offscreen transcript text as well as visible text. Repeated sentences are preserved. Downloads have no intentional text-length limit.
+• English and Chinese interface. Switching languages does not translate the original transcript.
+• Local processing. No extension account, API key, analytics or transcript upload.
+• Free, open-source software under the MIT license. Source and support links are included in the extension.
+
+HOW TO USE
+1. Open a podcast episode in Spotify’s web player that has a Transcript tab.
+2. Click the extension icon and keep the episode tab open.
+3. Review the transcript and choose a format.
+4. Click Download and choose where to save it.
+
+SCOPE
+The extension reads the content available in the current transcript panel. It does not transcribe audio, download audio, translate text, or guarantee Spotify’s transcription accuracy. Some episodes, accounts or regions may not have transcripts. If the panel is unstable or its structure is unsupported, the extension reports the problem instead of claiming a complete export. SRT and VTT are not generated without sentence timestamps.
+
+PERMISSIONS
+activeTab and scripting read the episode you choose after you invoke the extension. downloads saves the file and monitors that download. Transcript content and the selected episode URL are processed on your device; they are not sent to the developer or a third-party service.
+
+SOURCE & SUPPORT
+https://github.com/CN-JJB/Spotify-Podcast-Extractor
+https://github.com/CN-JJB/Spotify-Podcast-Extractor/issues
+
+Independent project; not affiliated with or endorsed by Spotify or Obsidian. Rights in podcast content remain with the relevant rights holders. Use exported content within your rights and the applicable terms.

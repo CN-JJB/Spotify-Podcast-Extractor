@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Spotify-Podcast-Extractor"
+  },
+  "extensionDescription": {
+    "message": "將 Spotify 播客現有轉錄匯出為 Markdown、TXT、HTML、JSON 或 CSV，區分說話者，全部在本機處理。"
+  },
+  "actionTitle": {
+    "message": "匯出目前的 Spotify 轉錄"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "spotify-podcast-extractor",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "package": "python package.py",
+    "preview:store": "node tests/store-preview.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CN-JJB/Spotify-Podcast-Extractor.git"
+  }
+}

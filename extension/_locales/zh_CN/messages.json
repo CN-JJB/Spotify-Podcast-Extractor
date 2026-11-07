@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Spotify-Podcast-Extractor"
+  },
+  "extensionDescription": {
+    "message": "导出 Spotify 播客已有转录为 Markdown、TXT、HTML、JSON 或 CSV，按说话人分块，全部在本机处理。"
+  },
+  "actionTitle": {
+    "message": "导出当前 Spotify 转录"
+  }
+}
